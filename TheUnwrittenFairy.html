@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unwritten Fairy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-page">
+
+    <nav class="navbar">
+        <a href="index.html" class="home-link">Home</a>
+    </nav>
+
+<body>
+    <div style="height: 100px;"></div>
+
+    <main class="text-page">
+        <h2>The Unwritten Fairy Tale</h2>
+
+        <p>The gray days of my life turned into bright shades the moment I met you. I wasn’t looking for love, nor did I believe I needed it, but life is a carousel—we climb aboard without knowing when the next rise or fall will come.</p>
+        <p>The time spent with you changed my existence for the better. Yet my own immaturity made you drift away, just like a river slowly leaves its source until it is lost in the ocean. Our love, too, dissolved into a boundless sea.</p>
+        <p>I never believed in fairy tales, not even now, but you were my fairy. Our wings were made of love, and they tore apart at the smallest mistake. The difference is that, in fairy tales, there’s always a happy ending. But when I heard your voice telling me it was over, it felt like an earthquake—one that turned seas into mountains and mountains into seas. My happiness collapsed to the depth of the ocean, while sorrow climbed to staggering heights. Perhaps I am not even the main character in my own tale…</p>
+        <p>I tried to replace you, but no one has given me the energy you once did. I tried to replace you, but no one’s words have made me smile in every moment. I tried to replace you, but no soul has spoken to mine the way yours once did.</p>
+        <p>Maybe I was never the hero at all. Maybe you were the writer who decided, halfway through the story, that there was someone better than me. I don’t think I will ever move past you; no one will ever take your place.</p>
+        <p>Now I am alone in a dark room, with a colorless life, holding on to a pain I don’t even wish to lose—for it feels like the last thread that still binds me to you, my fairy.</p>
+
+        <p class="signature">— Anonimul</p>
+
+    </main>
+
+    <footer>
+        <p>Semnat, Anonim © 2025</p>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+        let lastScrollY = window.scrollY;
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > lastScrollY) {
+                navbar.style.top = '-70px'; // Dispare la scroll down
+            } else {
+                navbar.style.top = '0'; // Reapare la scroll up
+            }
+            lastScrollY = window.scrollY;
+        });
+    </script>
+</body>
+</html>

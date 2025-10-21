@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unwritten Fairy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-page">
+
+    <nav class="navbar">
+        <a href="index.html" class="home-link">Home</a>
+    </nav>
+
+    <div style="height: 100px;"></div>
+
+    <main class="text-page">
+        <h2>Autumn Thoughts</h2>
+
+        <p>After more than two years, I still haven’t been able to move on. Whenever I’m alone, I think of you — of us — and how everything could’ve been different if I hadn’t made certain mistakes. They say that if you live in the past, you’re depressed… but how else could I live, when everything I want no longer exists in my present?</p>
+
+        <p>I still have hope that we’ll give ourselves another chance. I still have hope that we’ll fix everything. I still have hope that the pain will fade, that the sun will rise again, and that I’ll protect you from this cruel world. Because, just like after every storm, the sun always rises — but maybe not in our story.</p>
+
+        <p>Even though we see each other every day, it’s not the same anymore. We don’t talk, we ignore each other, we pretend we don’t exist — and that kills me. Not like smoking, which kills you once, but slowly — every single day.</p>
+
+        <p>The thought of wanting you to be mine makes me a fool. Maybe I should move on, but I can’t get used to the idea that this is it. Still, I’m not a fool, because I understood the message from the very start.</p>
+
+        <p>I admit my mistakes. They made me grow. If I could change something, I would change my past — but that would also change who I am today.</p>
+
+        <p>Our breakup brought me closer to God. And on the nights when I wanted everything to end, Jesus told me that everything would pass.</p>
+
+        <p>Even though I’m surrounded by other girls, even though others have wanted me, I haven’t been able to forget you. I couldn’t replace you — and I never will. How could I tell someone else “I love you” when I still love only you?</p>
+
+        <p>Your eyes, to me, are like a spring of water in the middle of a desert. Your smile is like water — essential to life. You are, to me, necessary to keep on living.</p>
+
+        <p>If one day I give in, I hope God has made a gentler fire — one that hurts less for those who couldn’t overcome the burdens this life throws at them every day.</p>
+
+        <p>I’ve changed so much that the world itself no longer feels right to me. And the only thing that distracts me from the bitter taste left behind is the time I spend with my friends.</p>
+
+        <p>How could I ever forget you, my morning star?</p>
+
+        <p class="signature">— Anonimul</p>
+
+        <a href="index.html" class="home-button">🏠 Home</a>
+    </main>
+
+    <footer>
+        <p>Semnat, Anonim © 2025</p>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+        let lastScrollY = window.scrollY;
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > lastScrollY) {
+                navbar.style.top = '-70px'; // Dispare la scroll down
+            } else {
+                navbar.style.top = '0'; // Reapare la scroll up
+            }
+            lastScrollY = window.scrollY;
+        });
+    </script>
+</body>
+</html>
+

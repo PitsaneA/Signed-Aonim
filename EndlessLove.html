@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unwritten Fairy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-page">
+
+    <nav class="navbar">
+        <a href="index.html" class="home-link">Home</a>
+    </nav>
+
+    <div style="height: 100px;"></div>
+
+    <main class="text-page">
+        <h2>Endless Love</h2>
+
+        <p>It was a heavy winter day when I left home — small, tired, and invisible to the world. Everything around was wrapped in a thick fog that pressed on my already broken soul. Without hope, I sank once again into the same repetitive and lifeless universe, unaware that this very day would change my entire destiny.</p>
+
+        <p>Time passed slowly — strange, isn’t it? Hours felt like eternity, while days slipped away. The day seemed dull, like all the others… until you appeared.</p>
+
+        <p>You were younger than me, and everyone had something bad to say about you, but I chose to ignore the world’s opinions. A big mistake, if I think about how I feel now, more than three years later. Yet back then, I took my first step toward you, not knowing you would overturn my entire view of the world and chase away the darkness that had become part of me.</p>
+
+        <p>Little by little, we started talking more often, day after day, not realizing where our words would take us. You said you wanted to be loved, and I listened, dreaming of holding you close and showing you that you mattered to someone.</p>
+
+        <p>They warned me about you, painting you in dark shades, but I chose to walk through hell for love. The time I spent with you flew by, and I — a grain of sand on an endless beach — felt that even eternity was too short to be in your presence.</p>
+
+        <p>But everything beautiful fades quickly, especially once the world finds out about it. Our story scattered into an abyss with no escape. You thought every girl looked at me the way you did — what madness! Who could find anything special in someone as simple as me?</p>
+
+        <p>Yet to me, you were a spring meadow where everything is reborn, the moon shining gently among the stars. But what a mistake — I was never the sun that gave you light.</p>
+
+        <p>Our birthdays were only a week apart — enough for everything to change completely, because of me. Our last words were cold and empty: “Happy birthday.” What’s the point of a long life if it’s spent far from what your heart desires?</p>
+
+        <p>You decided there could be nothing left between us. You found new lovers and told me our story had ended. Maybe dying on a battlefield wouldn’t have hurt this much…</p>
+
+        <p>I still haven’t managed to move on. You’re still my moon, but the sky is trapped in an eclipse. You’re still my world, but the world is cruel. I’d give anything to have you back — but I know I can’t.</p>
+
+        <p>Damn it, love — damn it all.</p>
+
+        <p class="signature">— Anonimul</p>
+
+    </main>
+
+    <footer>
+        <p>Semnat, Anonim © 2025</p>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+        let lastScrollY = window.scrollY;
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > lastScrollY) {
+                navbar.style.top = '-70px'; // Dispare la scroll down
+            } else {
+                navbar.style.top = '0'; // Reapare la scroll up
+            }
+            lastScrollY = window.scrollY;
+        });
+    </script>
+</body>
+</html>
